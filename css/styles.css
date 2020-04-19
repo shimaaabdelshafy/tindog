@@ -44,3 +44,30 @@
   width: 60%;
   transform: rotate(25deg);
 }
+
+/* FEATURES SECTION */
+#features{
+   font-family: "Montserrat";
+   padding: 7% 15%;
+}
+.feature{
+    text-align: center;
+    padding: 5%;
+}
+.h3{
+  font-size:2rem;
+  font-weight: 900;
+
+}
+p{
+  color:#8f8f8f;
+  font-weight: 500;
+
+}
+.fas{
+  margin-bottom: 1rem;
+  color:#ef8172;
+}
+.fas:hover{
+  color:#ff4c68;
+}
