@@ -56,14 +56,18 @@
 
 /* Title Image */
 .title-image{
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* FEATURES SECTION */
 #features{
    font-family: "Montserrat";
    padding: 7% 15%;
+   background-color: white;
+   position:relative;
+   z-index: 1;
 }
 .feature{
     text-align: center;
@@ -103,4 +107,14 @@
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
 }
